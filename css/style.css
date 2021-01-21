@@ -1,0 +1,71 @@
+body{
+	height: 2000px;
+}
+
+.container img{
+	width: 50px;
+}
+
+.navbar-brand{
+	font-family: 'Viga', sans-serif;
+	font-size: 32px;
+}
+
+.jumbotron{
+	height: 550px;
+	background-image: url('../images/jumbotron.jpg');
+	background-size: cover;
+}
+
+.jumbotron h1{
+	text-transform: uppercase;
+	margin-top: 80px;
+	color: white;
+	font-weight: 300;
+}
+
+.jumbotron h3{
+	color: black;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Desktop Version*/
+@media (min-width: 992px) { 
+
+	.nav-link{
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid white;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+
+	.jumbotron{
+		height: 650px;
+	}
+
+ }
+

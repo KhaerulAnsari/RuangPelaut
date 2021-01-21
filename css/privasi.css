@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&display=swap');
+
+body{
+	margin-bottom: 30px;
+}
+
+.navbar-brand img{
+	height: 50px;
+	width: 100px;
+}
+
+.nav-link{
+	margin-right: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.navbar-collapse select{
+	background:none;
+	border:none;
+	color: white;
+}
+
+.navbar .navbar-togler{
+	background-color: white;
+}
+.navbar-collapse option{
+	color: black;
+	border: none;
+}
+
+.privasi{
+	margin-top: 130px;
+}
+
+.back{
+	margin-bottom: 25px;
+}
+
+.back-body{
+	padding: 10px;
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.4);
+	width: 250px;
+}
+
+.back .back-body a{
+	text-decoration: none;
+}
+
+.back .back-body i{
+	margin-right: 5px;
+}
+
+.card{
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	padding: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.privasi .card-body hr{
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.privasi .card-body li,p{
+	font-size: 18px;
+}
+
+.privasi .card-body .start{
+	font-style: italic;
+	margin-bottom: 40px;
+}
+
+ @media (max-width: 765px){
+
+.navbar .menu select{
+	width: 100px;
+}
+
+}
